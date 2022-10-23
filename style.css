@@ -28,4 +28,60 @@ body {
             #110252, #331a99, 
             #1417a5, #1149cc, #2686f4);
     }
+    55%{
+        background: linear-gradient(
+            #110252, #331a99, 
+            #1417a5, #1149cc, #2686f4);
+    }
+    98%{
+        background: linear-gradient(
+        #3f006c,#750050,
+        #b10042,#da4837, #f7bb38
+        );
+    }
+    100%{
+        background: linear-gradient(
+        #3f006c,#750050,
+        #b10042,#da4837, #f7bb38
+        );
+    }
+}
+.spinner{
+    height: 28.12em;
+    width: 28.12em;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 8.75em;
+    left: -5.62em;
+    animation: spin 12s infinite forwards;
+}
+@keyframes spin{
+}
+.sun{
+    background-color: #f7f7de;
+    height: 3.75em;
+    width: 3.75em;
+    border-radius: 50%;
+    position: absolute;
+    left: 12.3em;
+    top: -1.87em;
+}
+.sun:before,.sun:after{
+    position: absolute;
+    content: "";
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.sun:before{
+    height: 7.5em;
+    width: 7.5em;
+    right: -1.87em;
+    bottom: -1.87em;
+}
+.sun:after{
+    height: 12.5em;
+    width: 12.5em;
+    right: -4.37em;
+    bottom: -4.37em;
 }
