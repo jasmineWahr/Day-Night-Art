@@ -13,6 +13,7 @@ body {
     top: 50%;
     left: 50%;
     z-index: 1;
+    overflow: hidden;
     border-radius: 16.8em;
     animation: colors 12s infinite forwards;
 }
@@ -49,7 +50,6 @@ body {
 .spinner{
     height: 28.12em;
     width: 28.12em;
-    /*border: 1px solid black;*/
     border-radius: 50%;
     position: absolute;
     top: 8.75em;
@@ -99,6 +99,50 @@ body {
     width: 12.5em;
     right: -4.37em;
     bottom: -4.37em;
+}
+.ray1{
+    height: 0;
+    width: 0.6em;
+    border-bottom: 10.6em solid rgba(255, 255, 255, 0.1);
+    border-left: 1.8em solid transparent;
+    border-right: 1.8em solid transparent;
+    position: absolute;
+    transform: rotate(130deg);
+    bottom: 0.6em;
+    right: 4em;
+}
+.ray2{
+    position: absolute;
+    height: 0;
+    width: 0.9em;
+    border-bottom: 12.5em solid rgba(255, 255, 255, 0.1);
+    border-left: 2.1em solid transparent;
+    border-right: 2.1em solid transparent;
+    transform: rotate(230deg);
+    left: 3.75em;
+    bottom: -0.3em;
+}
+.ray3{
+    position: absolute;
+    height: 0;
+    width: 0.3em;
+    border-bottom: 12.5em solid rgba(255, 255, 255, 0.1);
+    border-left: 0.9em solid transparent;
+    border-right: 0.9em solid transparent;
+    transform: rotate(80deg);
+    left: -5.3em;
+    bottom: -5.6em;
+}
+.ray4{
+    position: absolute; 
+    height: 0;
+    width: 0.1em;
+    border-bottom: 12.5em solid rgba(255, 255, 255, 0.1);
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    transform: rotate(280deg);
+    left: 7.5em;
+    bottom: -5.6em;
 }
 .moon{
     height: 3.75em;
