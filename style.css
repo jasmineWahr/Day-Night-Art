@@ -171,3 +171,36 @@ body {
     left: -2.6em;
     bottom: -2.8em;
 }
+.stars{
+  height: 0.15em;
+  width: 0.15em;
+  background-color: white;
+  position: absolute;
+  top: 3.7em;
+  left: 9.3em;
+  border-radius: 50%;
+  box-shadow: 3em 9.3em white, -1.8em 11.2em white, 3.6em 15.4em white,
+             -5em 15.4em white, -6.7em 8.2em white, -1em 5.3em white,
+            -3.9em 4em white;
+  animation: twinkle 12s infinite forwards;
+}
+@keyframes twinkle{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    53%{
+        opacity: 0.7;
+    }
+    55%{
+        opacity: 0.7;
+    }
+    98%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
